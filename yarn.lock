@@ -2017,6 +2017,21 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
+"@fontsource/source-sans-pro@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-sans-pro/-/source-sans-pro-4.5.4.tgz#51510723ff40f446c7800f133e9ae604ae2f38d7"
+  integrity sha512-+YYw6HRvH9wYE+U2Hvxyossg+MHPApAj7VIjEqaXenNeNQa4U3uPD0e7pc+1Gic3srCQATN15O3S9WSFLXTmwQ==
+
+"@fontsource/source-serif-pro@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-serif-pro/-/source-serif-pro-4.5.2.tgz#6e4326d0990d840111462f5fb754c49445ae0f27"
+  integrity sha512-SLZc/0MiC/SiubsJrdbCoxzlOmKmwH8xuD41iGdaR8taao33yRCM7Qk2oXfJHgl2uYH2LFSchjHRzO+vZBdGQQ==
+
+"@fontsource/uncial-antiqua@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/uncial-antiqua/-/uncial-antiqua-4.5.4.tgz#65bb74e574e5b27b5f2c471dec8281e9d53b9f62"
+  integrity sha512-qS0fAJa05wQo+6E3+WmWyxz9SS2ub51EU/qkaltXrdgCH+byupBWBF+Xpj4wOPIU7PI+2I61iBkTs5B+JLydpA==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"

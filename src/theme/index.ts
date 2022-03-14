@@ -1,5 +1,15 @@
 import { extendTheme } from '@chakra-ui/react';
-import '../assets/css/fonts.css';
+
+// todo: old to remove
+// import '../assets/css/fonts.css';
+
+//updated fonts
+import '@fontsource/uncial-antiqua/400.css';
+import '@fontsource/source-sans-pro/400.css';
+import '@fontsource/source-sans-pro/600.css';
+import '@fontsource/source-sans-pro/700.css';
+import '@fontsource/source-serif-pro/700.css';
+
 import '../assets/css/globals.css';
 
 import { Button } from './components/Button';
@@ -22,11 +32,16 @@ const theme = extendTheme({
   },
   colors,
   fonts: {
-    texturina: `'Texturina', serif`,
-    jetbrains: `'JetBrains Mono', monospace`,
-    rubik: `'Rubik Mono One', sans-serif`,
-    uncial: `'Uncial Antiqua', cursive`,
-    spaceMono: `'Space Mono', monospace;`,
+    // todo: old to remove
+    // texturina: `'Texturina', serif`,
+    // jetbrains: `'JetBrains Mono', monospace`,
+    // rubik: `'Rubik Mono One', sans-serif`,
+    // spaceMono: `'Space Mono', monospace;`,
+
+    //updated fonts
+    uncialAntiqua: `'Uncial Antiqua', cursive`,
+    sourceSansPro: `'Source Sans Pro', sans-serif;`,
+    sourceSerifPro: `'Source Serif Pro', serif;`,
   },
   components: {
     Button,
