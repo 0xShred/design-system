@@ -1,11 +1,35 @@
 export const Heading = {
   // Styles for the base style
   baseStyle: {
-    fontFamily: 'uncial',
-    letterSpacing: '1.2px',
+    fontFamily: 'uncialAntiqua',
+    fontWeight: '400',
+    letterSpacing: '-1px',
   },
   // Styles for the size variations
-  sizes: {},
+
+  sizes: {
+    '4xl': {
+      fontSize: ['4rem', null, '6.5rem'],
+    },
+    '3xl': {
+      fontSize: ['3.5rem', null, '5rem'],
+    },
+    '2xl': {
+      fontSize: ['2.75rem', null, '4rem'],
+    },
+    xl: {
+      fontSize: ['2rem', null, '3rem'],
+    },
+    lg: {
+      fontSize: ['1.625rem', null, '2.25rem'],
+    },
+    md: {
+      fontSize: ['1.375rem', null, '1.75rem'],
+    },
+    sm: {
+      fontSize: ['1rem', null, '1.25rem'],
+    },
+  },
   // Styles for the visual style variations
 
   variants: {
@@ -14,6 +38,10 @@ export const Heading = {
     },
     noShadow: {
       textShadow: 'none',
+    },
+    HeadingApp: {
+      fontFamily: 'sourceSerifPro',
+      fontWeight: 700,
     },
     // headingOne: {
     //   fontFamily: 'uncial',
@@ -39,6 +67,6 @@ export const Heading = {
   },
   // The default `size` or `variant` values
   defaultProps: {
-    variant: 'shadow',
+    // variant: 'shadow',
   },
 };
