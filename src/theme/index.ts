@@ -17,32 +17,17 @@ import { Card } from './components/Card/Card';
 import { colors } from './colors';
 import { Heading } from './components/typography/Heading';
 import { Text } from './components/typography/Text';
-// import { textStyles } from './texts';
+import { styles } from './styles';
 
 const theme = extendTheme({
-  styles: {
-    global: {
-      body: {
-        color: 'white',
-        bg: 'black',
-        minHeight: '100vh',
-        minWidth: '100vw',
-      },
-    },
-  },
+  styles,
   colors,
   fonts: {
-    // todo: old to remove
-    // texturina: `'Texturina', serif`,
-    // jetbrains: `'JetBrains Mono', monospace`,
-    // rubik: `'Rubik Mono One', sans-serif`,
-    // spaceMono: `'Space Mono', monospace;`,
-
-    //updated fonts
     uncialAntiqua: `'Uncial Antiqua', cursive`,
     sourceSansPro: `'Source Sans Pro', sans-serif;`,
     sourceSerifPro: `'Source Serif Pro', serif;`,
   },
+
   components: {
     Button,
     Card,
@@ -51,4 +36,22 @@ const theme = extendTheme({
   },
 });
 
-export default theme;
+// const theme = extendTheme({
+//   styles,
+//   colors,
+//   fonts: {
+//     uncialAntiqua: `'Uncial Antiqua', cursive`,
+//     sourceSansPro: `'Source Sans Pro', sans-serif;`,
+//     sourceSerifPro: `'Source Serif Pro', serif;`,
+//   },
+
+//   // Other foundational style overrides go here
+//   components: {
+//     Button,
+//     Card,
+//     Text,
+//     Heading,
+//   },
+// });
+
+export default extendTheme(theme);

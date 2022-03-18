@@ -9,6 +9,18 @@ export const colors = {
   blue: '#452fc7',
   green: '#38ff70',
 
+  gray: {
+    900: '#2B2C34',
+    800: '#404148',
+    700: '#55565d',
+    600: '#6b6b71',
+    500: '#808085',
+    400: '#95969a',
+    300: '#bfc0c2',
+    200: '#d5d5d6',
+    100: '#eaeaeb',
+  },
+
   // transparent: 'transparent',
   // blackDark: 'rgba(10, 10, 10, 0.960784)',
   // blackLight: '#2b2c34',
