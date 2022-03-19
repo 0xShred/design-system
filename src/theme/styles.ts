@@ -1,8 +1,8 @@
 export const styles = {
   global: {
     body: {
-      color: 'white',
-      bg: 'red',
+      color: 'black',
+      bg: 'white',
       minHeight: '100vh',
       minWidth: '100vw',
     },

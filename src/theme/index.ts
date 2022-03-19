@@ -36,22 +36,4 @@ const theme = extendTheme({
   },
 });
 
-// const theme = extendTheme({
-//   styles,
-//   colors,
-//   fonts: {
-//     uncialAntiqua: `'Uncial Antiqua', cursive`,
-//     sourceSansPro: `'Source Sans Pro', sans-serif;`,
-//     sourceSerifPro: `'Source Serif Pro', serif;`,
-//   },
-
-//   // Other foundational style overrides go here
-//   components: {
-//     Button,
-//     Card,
-//     Text,
-//     Heading,
-//   },
-// });
-
 export default extendTheme(theme);
