@@ -23,3 +23,9 @@ On http://localhost:6006/ you'll see the components built in the [storybook](htt
 ## Prettier
 
 If you do not already use [Prettier](https://prettier.io/), please add Prettier to your text editor. Prettier allows us to have consistent formatting without having to think much about it.
+
+
+## Generating Icons
+1. Add svg icon to src/assets/icons
+2. Run `yarn run generate-icons`
+3. Icon components will be generated in src/components/icons
