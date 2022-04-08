@@ -20,14 +20,13 @@ import { Text } from './components/typography/Text';
 import { styles } from './styles';
 
 const theme = extendTheme({
-  styles,
   colors,
   fonts: {
     uncialAntiqua: `'Uncial Antiqua', cursive`,
     sourceSansPro: `'Source Sans Pro', sans-serif;`,
     sourceSerifPro: `'Source Serif Pro', serif;`,
   },
-
+  styles,
   components: {
     Button,
     Card,

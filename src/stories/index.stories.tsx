@@ -26,10 +26,10 @@ const Template: Story = () => (
       <Image src={raidGuildLogoLeft} alt="Swords logo" maxH="75vh" />
 
       <VStack align="center" spacing="5vh">
-        <Heading as="h1" size="3xl" color="white" textAlign="center">
+        <Heading as="h1" fontSize="5xl" textAlign="center">
           Raid Guild Design Guide
         </Heading>
-        <Text align="center" mb={5} fontFamily="texturina">
+        <Text align="center" mb={5}>
           Use the navigation on the left to explore existing components built
           with Raid Guild styling.
         </Text>
@@ -40,20 +40,6 @@ const Template: Story = () => (
       <Image src={raidGuildLogoRight} alt="Swords logo" maxH="75vh" />
     </HStack>
     <FooterSimple />
-    {/* <Card variant="flat">
-      <Image
-        src="https://chakra-ui.com/eric.jpg"
-        rounded="full"
-        w={32}
-        h={32}
-        boxShadow="md"
-      />
-      <Heading mt={6} maxW={60} size="lg" textAlign="center" color="gray.700">
-        Welcome back, Eric
-      </Heading>
-
-      <Image src="https://chakra-ui.com/eric.jpg" w={32} h={32} />
-    </Card> */}
   </>
 );
 
