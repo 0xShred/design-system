@@ -25,6 +25,7 @@ const theme = extendTheme({
     uncialAntiqua: `'Uncial Antiqua', cursive`,
     sourceSansPro: `'Source Sans Pro', sans-serif;`,
     sourceSerifPro: `'Source Serif Pro', serif;`,
+    sourceCodePro: `'Source Code Pro', monospace;`,
   },
   styles,
   components: {

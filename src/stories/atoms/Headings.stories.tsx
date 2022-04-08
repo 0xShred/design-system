@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heading, Text, SimpleGrid } from '@chakra-ui/react';
+import { Heading, SimpleGrid } from '@chakra-ui/react';
 
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
@@ -18,7 +18,7 @@ export const Primary: ComponentStory<typeof Heading> = () => (
       <Heading as="h1" fontSize="9xl" color="black" mb={4}>
         Marketing
       </Heading>
-      <Text fontSize="9xl">Text test</Text>
+
       <Heading as="h1" fontSize="9xl" color="black" mb={4}>
         h1 Heading / 9XL
       </Heading>
