@@ -2017,6 +2017,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
+"@fontsource/source-code-pro@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-code-pro/-/source-code-pro-4.5.6.tgz#f11e6dc9f0e4db8ff2c6cf5f6e294f18b16433ef"
+  integrity sha512-idYGw+8gEyec58O5LFkJecscaQDJmTMrrRBcmrYTbS2fhSyEuaq1xtTpG8QOQCvW5CA0XrSpWVfA/1HwJjm6Fw==
+
 "@fontsource/source-sans-pro@^4.5.4":
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/@fontsource/source-sans-pro/-/source-sans-pro-4.5.4.tgz#51510723ff40f446c7800f133e9ae604ae2f38d7"
